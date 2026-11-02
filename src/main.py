@@ -36,7 +36,7 @@ class App(ctk.CTk):
         self.FrameOpciones = FrameOpciones(self, TabPrincipal.tab("Opciones"))
 
 theme = ""
-with open("scr/BackEnd/_Cache.txt","r") as file:
+with open("src/BackEnd/_Cache.txt","r") as file:
     theme = file.readline()
 
 main = App(title="PEZ - C++ Compiler Visualizer",
