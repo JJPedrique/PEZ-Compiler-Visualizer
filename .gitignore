@@ -1,0 +1,38 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+ENV/
+
+# Variables de entorno
+.env
+
+# Archivos compilados de Python y caché
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+
+# Archivos de empaquetado y distribución (Ej. PyInstaller para CustomTkinter)
+build/
+dist/
+*.egg-info/
+*.spec
+
+# Configuraciones de IDEs y editores locales
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Archivos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# (Opcional) Archivos de imágenes generados o temporales de Pillow
+# Descomenta las siguientes líneas si generas imágenes que no quieres subir a Git
+# *.png
+# *.jpg
+# *.jpeg
+# /output/
+# /temp/
