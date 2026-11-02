@@ -75,7 +75,7 @@ class FrameOpciones(ctk.CTkFrame):
         self.root.FrameEditor.VISUALIZAR_SEMANTICO = not self.root.FrameEditor.VISUALIZAR_SEMANTICO
 
     def EstablecerTema(self,tema):
-        with open("scr/BackEnd/_Cache.txt","w") as file:
+        with open("src/BackEnd/_Cache.txt","w") as file:
             file.write(tema)
 
     def Importar(self):
